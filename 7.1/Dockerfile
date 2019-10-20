@@ -1,6 +1,7 @@
 FROM alpine:3.7
 
 RUN apk update \
+    && addgroup -S vagrant && adduser -S vagrant -G vagrant \
     && apk add --no-cache imagemagick openssl shadow pcre \
         php7-bcmath php7-ctype php7-curl \
         php7-dom php7-exif php7-fileinfo php7-fpm \

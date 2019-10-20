@@ -1,0 +1,14 @@
+{
+    "name": "clubdeuce/docker-php-fom",
+    "type": "project",
+    "require": {
+        "consolidation/robo": "^1.4"
+    },
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "ClubDeuce",
+            "email": "daryl@clubdeuce.net"
+        }
+    ]
+}

@@ -2,7 +2,7 @@
     "name": "clubdeuce/docker-php-fom",
     "type": "project",
     "require": {
-        "consolidation/robo": "^1.4"
+        "consolidation/robo": "^3"
     },
     "license": "GPL v3",
     "authors": [

@@ -24,9 +24,9 @@ class RoboFile extends \Robo\Tasks
             foreach ($config->tags as $tag) {
                 $build->tag(sprintf('%1$s:%2$s', self::PACKAGE, $tag));
             }
-            $containerId = $build->run();
-
-            return $containerId;
+            return $build->run();
         }
+
+        return null;
     }
 }
